@@ -1,0 +1,149 @@
+*{
+  overflow-x: hidden !important;
+    font-family: calibri !important;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+display: block;
+position: fixed;
+top: 0;
+width: 100%;
+background-color: #fff9;
+padding-right: 50px;
+
+
+}
+li{
+list-style-type: none;
+display: inline;
+margin-right: 20px;
+font-size:25px;
+float:right;
+overflow: hidden;
+
+
+}
+ul li a{
+  text-decoration: none;
+  padding: 30px;
+
+}
+
+.logo{
+  z-index: 1000;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+
+}
+
+.logoimg{
+  position: absolute;
+
+  margin-top: -40px;
+}
+
+.menu{
+  line-height: 80px;
+}
+.background-image{
+height: 100vh;
+width: 100%;
+overflow-x: hidden;
+background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url("333.jpg") ;
+}
+
+.heading{
+  font-weight: bold;
+  font-size: 60px;
+  color: #fff;
+  margin-top: 100px;
+  text-align: center;
+
+}
+
+.nichol{
+
+height: 40px;
+margin-left: 50%
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+header ul li:hover{
+  background-color: rgba(237, 51, 73, 0.86);
+  opacity: transparent;
+  transition: 0.5s ease;
+}
+ul li:nth-child(1){
+  float: left;
+}
+ul li:nth-child(2){
+  float: left;
+}
+ul li:nth-child(3){
+  float: left;
+}
+.any{
+  margin-left: 44%;
+
+}
+.any a{
+  margin-right: 25px;
+  font-size: 35px;
+  text-decoration: none;
+
+}
+.any a {
+  background-color: #fff9;
+  border-radius: 0px 20px 0px 20px;
+  line-height: 80px;
+  padding: 5px 20px;
+}
+.any a:hover{
+  background-color: rgba(237, 51, 73, 0.86);
+  transition: 0.5s ease;
+}
+.foot{
+  background-color: #fff9;
+  margin-top: 90vh;
+  line-height: 50px;
+  overflow-x: hidden;
+  width: 100%;
+}
+.foot ul{
+  display: inline-table;
+  margin-left: 40%;
+}
+.background-imagee{
+height: 100vh;
+width: 100%;
+overflow-x: hidden;
+background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url("333.jpg") ;
+}
+.ab a{
+  text-decoration: none;
+  margin left: 30%;
+  font-size: 25px;
+  color: #fff;
+  margin-right: 350px;
+  background-color: #fff9;
+  border-radius: 20px;
+  padding: 5px 20px;
+
+
+}
+.ab{
+padding-left: 25%;
+line-height: 50px;
+}
+.column {
+
+  width: 100%;
+  padding: 5px;
+  
+
+}
